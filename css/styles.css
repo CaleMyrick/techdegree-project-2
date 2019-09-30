@@ -1,0 +1,80 @@
+* {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+.name{
+  font-size:3em;
+}
+
+img{
+  max-width: 100%;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+    padding-bottom:1em;
+    font-weight: bold;
+}
+
+.calculator{
+  padding-bottom:3em;
+}
+
+footer h3{
+  padding-bottom: 1em;
+}
+
+.name-footer{
+  
+}
+
+.top{
+  float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media (min-width:769px){
+
+}
