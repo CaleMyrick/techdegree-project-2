@@ -7,7 +7,7 @@
   font-size:3em;
 }
 
-img{
+.profile-picture{
   max-width: 100%;
 }
 
@@ -16,9 +16,17 @@ ul{
 }
 
 li{
-  list-style: none;
     padding-bottom:1em;
     font-weight: bold;
+}
+
+li a{
+  text-decoration: none;
+  color:black;
+}
+
+li a:hover{
+  color:red;
 }
 
 .calculator{
@@ -30,42 +38,37 @@ footer h3{
 }
 
 .name-footer{
-  
+
 }
 
-.top{
+.contact-container h3{
+  padding-bottom:2em;
+}
+
+#phone {
+  padding-top:2em;
+
+}
+
+#footer-name{
+  float:left;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  padding-bottom:2em;
+  padding-top:3em;
+  padding-left:1em;
+}
+
+#back-to-top{
   float:right;
+  text-decoration:none;
+  font-weight: bold;
+  color:black;
+  padding-bottom:2em;
+  padding-top:3em;
+  padding-right:1em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -76,5 +79,36 @@ footer h3{
 /* Media Queries */
 
 @media (min-width:769px){
+
+
+.name{
+  font-size: 2em;
+}
+li{
+  display:inline;
+  padding-right:1.5em;
+  padding-left:.75em;
+  margin-left: .7em;
+}
+
+.profile-picture{
+  display:inline;
+  float:right;
+  padding-top:4em;
+  padding-left: 2em;
+  width:40%;
+  height:auto;
+}
+
+#aboutme{
+  padding-top:4em;
+  text-align:left;
+  padding-left:4px;
+}
+
+#portfolio{
+  padding-top:12em;
+  padding-bottom:3em;
+}
 
 }

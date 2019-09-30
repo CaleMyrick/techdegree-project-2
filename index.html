@@ -2,59 +2,59 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type = "text/css" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" type = "text/css" rel="stylesheet">
     <title>TD Project 2</title>
   </head>
   <body>
     <h1 class="name">Cale Myrick</h1>
 
     <ul>
-      <li>Home</li>
-      <li>Portfolio</li>
-      <li>Contact</li>
+      <li><a href="#top">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
-    <img src="images\responsive-layout-profile.png" alt="Default portfolio picture">
+    <img src="images\responsive-layout-profile.png" class="profile-picture"alt="Default portfolio picture">
 
-    <p>Hi! I'm a front-end developer who loves responsive design and css.
+    <p id="aboutme">Hi! I'm a front-end developer who loves responsive design and css.
       I recently finished a degree in front-end web development at Treehouse
       and am excited to put all my skills to use!</p>
 
       <div class="container">
-        <h2>Portfolio</h2>
+        <h2 id="portfolio">Portfolio</h2>
 
-        <div>
+        <div class="portfolio-screenshot">
           <img src="images\portfolio-1.png" alt="Portfolio Screenshot">
           <h3>Marketing Page</h3>
           <p>This project shows the front page of a marketing website meant for a specific business
           I'm interested in.</p>
         </div>
 
-        <div>
+        <div class="search-page">
           <img src="images\portfolio-2.png" alt="Search Page Screenshot">
           <h3>Search Page</h3>
           <p>This project searches through a specific database to find information that the
           user is trying to look up.</p>
         </div>
 
-        <div>
+        <div class="travel-app">
           <img src="images\portfolio-3.png" alt="Travel App Screenshot">
           <h3>Travel App</h3>
           <p>This project compares travel times based on different transportation
           methods and tells you the best one.</p>
         </div>
 
-        <div>
+        <div class="map">
           <img src="images\portfolio-4.png" alt="Map Of Favorite Spots Screenshot">
           <h3>Map of Favorite Spots</h3>
           <p>This project uses mapping apis to plot points for my favorite spots
           in the city for a do-it-yourself walking tour.</p>
         </div>
 
-        <div>
+        <div class="photo-gallery">
           <img src="images\portfolio-5.png" alt="Photo Gallery Screenshot">
           <h3>Photo Gallery</h3>
           <p>This project shows pictures from a recent trip to the view and allows
@@ -69,22 +69,19 @@
         </div>
       </div>
 
-      <footer>
-
+      <div class="contact-container" id="contact">
         <h3>Contact</h3>
         <p>If you're interested in chatting or want more information about
         what I've been working on, I'd love to hear from you!</p>
+        <p id="phone">Phone <strong>+ 1(251)-555-5555</strong></p>
+        <p id ="email">Email <strong>email@yoursite.com</strong></p>
 
-        <p>Phone 251-555-5555</p>
-        <p>Email email@yoursite.com</p>
-        <p class="name-footer">
-          Cale Myrick
-        </p>
-        <p>
-          <a class="top" href="#top">
-              BACK TO TOP
-          </a>
-        </p>
+      </div>
+
+      <footer>
+        <p><a id="back-to-top" href="#top">BACK TO TOP </a></p>
+        <p><a id= "footer-name"href="#top">Cale Myrick</a></p>
+
 
 
       </footer>
