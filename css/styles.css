@@ -1,5 +1,5 @@
 *{
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
   max-width: 1250px;
 }
@@ -30,17 +30,22 @@ li a{
 }
 
 li a:hover{
-  color:red;
+  color:blue;
 }
 
 
 
 .marketing img{
   width:100%;
+  height:auto;
 }
 
 .search-page img{
   width:100%;
+}
+
+#photogallery{
+
 }
 
 .travel-app img{
@@ -285,7 +290,7 @@ li{
     display:inline;
     width:32%;
     float:left;
-    padding-left: 0.275em;
+    padding-left: 0.5em;
     padding-right: 0;
   }
 
@@ -307,7 +312,7 @@ li{
   }
 
   .travel-app img{
-    width:98%;
+    width:95%;
     padding:0;
   }
 
@@ -388,7 +393,7 @@ li{
       display:inline;
       width:32%;
       float:left;
-      padding-left: 0.52em;
+      padding-left: 1em;
       padding-right: 0;
     }
   }
