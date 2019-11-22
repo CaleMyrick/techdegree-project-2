@@ -35,12 +35,12 @@ li a:hover{
 
 
 
-.marketing img{
+.sass-fw img{
   width:100%;
   height:auto;
 }
 
-.search-page img{
+.jquery-gall img{
   width:100%;
 }
 
@@ -48,7 +48,7 @@ li a:hover{
 
 }
 
-.travel-app img{
+.construction-calc img{
   width:100%;
 }
 
@@ -147,48 +147,48 @@ li{
   clear:both;
 }
 
-.marketing{
+.sass-fw{
   width:45%;
   float:left;
   padding-left: 2em;
 }
 
-.marketing img{
+.sass-fw img{
   width:100%;
 }
 
-.marketing p{
+.sass-fw p{
   min-height: 74px;
 }
 
 
-.search-page{
+.jquery-gall{
   display:inline;
   float:right;
   width:45%;
   padding-right:2em;
 }
 
-.search-page img{
+.jquery-gall img{
   width:100%;
 }
 
-.search-page p{
+.jquery-gall p{
   min-height:74px;
 }
 
-.travel-app{
+.construction-calc{
   display:inline;
   float:left;
   width:45%;
   padding-left: 2em;
 }
 
-.travel-app img{
+.construction-calc img{
   width:100%;
 }
 
-.travel-app p{
+.construction-calc p{
   min-height: 74px;
 }
 
@@ -267,7 +267,7 @@ li{
     padding-bottom:2em;
   }
 
-  .marketing {
+  .sass-fw {
     width:32%;
     float:left;
     display:inline;
@@ -275,18 +275,18 @@ li{
     padding-left: 1em;
   }
 
-  .marketing img{
+  .sass-fw img{
     width:98%;
     padding:0;
   }
 
-  .marketing p{
+  .sass-fw p{
     min-height: 74px;
     padding-left:0;
   }
 
 
-  .search-page{
+  .jquery-gall{
     display:inline;
     width:32%;
     float:left;
@@ -294,16 +294,16 @@ li{
     padding-right: 0;
   }
 
-  .search-page img{
+  .jquery-gall img{
     width:98%;
     padding:0;
   }
 
-  .search-page p{
+  .jquery-gall p{
     min-height:74px;
   }
 
-  .travel-app{
+  .construction-calc{
     display:inline;
     width:32%;
     float:right;
@@ -311,14 +311,14 @@ li{
     padding-right: 1em;
   }
 
-  .travel-app img{
+  .construction-calc img{
     width:95%;
     padding:0;
   }
 
 
 
-  .travel-app p{
+  .construction-calc p{
     min-height: 74px;
   }
 
@@ -358,6 +358,8 @@ li{
   }
 
 
+  /* Even Larger Screens */
+
   @media only screen and (min-width: 1350px){
 
     .clearfix::after {
@@ -389,7 +391,7 @@ li{
       padding:0;
     }
 
-    .search-page{
+    .jquery-gall{
       display:inline;
       width:32%;
       float:left;
